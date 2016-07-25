@@ -13,6 +13,11 @@
 		8E8D75761D467A8100BD83AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8D75751D467A8100BD83AB /* Assets.xcassets */; };
 		8E8D75791D467A8100BD83AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8D75771D467A8100BD83AB /* LaunchScreen.storyboard */; };
 		8E8D75841D467A8200BD83AB /* Game_of_LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D75831D467A8200BD83AB /* Game_of_LifeTests.swift */; };
+		8E8D758F1D467A9900BD83AB /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D758E1D467A9900BD83AB /* State.swift */; };
+		8E8D75911D467B0500BD83AB /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D75901D467B0500BD83AB /* Cell.swift */; };
+		8E8D75931D467B3200BD83AB /* Life.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D75921D467B3200BD83AB /* Life.swift */; };
+		8E8D75951D467B8100BD83AB /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D75941D467B8100BD83AB /* GameBoard.swift */; };
+		8E8D75971D46A57500BD83AB /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D75961D46A57500BD83AB /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		8E8D757F1D467A8200BD83AB /* Game of LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game of LifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8D75831D467A8200BD83AB /* Game_of_LifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_of_LifeTests.swift; sourceTree = "<group>"; };
 		8E8D75851D467A8200BD83AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8D758E1D467A9900BD83AB /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = State.swift; path = ../State.swift; sourceTree = "<group>"; };
+		8E8D75901D467B0500BD83AB /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = ../Cell.swift; sourceTree = "<group>"; };
+		8E8D75921D467B3200BD83AB /* Life.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Life.swift; path = ../Life.swift; sourceTree = "<group>"; };
+		8E8D75941D467B8100BD83AB /* GameBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameBoard.swift; path = ../GameBoard.swift; sourceTree = "<group>"; };
+		8E8D75961D46A57500BD83AB /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 		8E8D75621D467A8000BD83AB = {
 			isa = PBXGroup;
 			children = (
+				8E8D75961D46A57500BD83AB /* Utility.swift */,
 				8E8D756D1D467A8100BD83AB /* Game of Life */,
 				8E8D75821D467A8200BD83AB /* Game of LifeTests */,
 				8E8D756C1D467A8100BD83AB /* Products */,
@@ -77,6 +88,10 @@
 		8E8D756D1D467A8100BD83AB /* Game of Life */ = {
 			isa = PBXGroup;
 			children = (
+				8E8D758E1D467A9900BD83AB /* State.swift */,
+				8E8D75901D467B0500BD83AB /* Cell.swift */,
+				8E8D75921D467B3200BD83AB /* Life.swift */,
+				8E8D75941D467B8100BD83AB /* GameBoard.swift */,
 				8E8D756E1D467A8100BD83AB /* AppDelegate.swift */,
 				8E8D75701D467A8100BD83AB /* ViewController.swift */,
 				8E8D75721D467A8100BD83AB /* Main.storyboard */,
@@ -197,8 +212,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8D75971D46A57500BD83AB /* Utility.swift in Sources */,
 				8E8D75711D467A8100BD83AB /* ViewController.swift in Sources */,
+				8E8D75911D467B0500BD83AB /* Cell.swift in Sources */,
 				8E8D756F1D467A8100BD83AB /* AppDelegate.swift in Sources */,
+				8E8D758F1D467A9900BD83AB /* State.swift in Sources */,
+				8E8D75951D467B8100BD83AB /* GameBoard.swift in Sources */,
+				8E8D75931D467B3200BD83AB /* Life.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
